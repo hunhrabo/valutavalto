@@ -9,7 +9,7 @@ const Contact = () => {
           <span className="sr-only">Gmail</span>
         </a>
         <a
-          href="https://github.com/hunhrabo"
+          href="https://github.com/hunhrabo/valutavalto"
           rel="noopener noreferrer"
           target="_blank"
         >
