@@ -1,0 +1,7 @@
+fix select box appearance in safari
+provide http request alternative for edge and ms explorer 
+remove hover on small screens
+underline napiarfolyam link
+upgrade loading screen
+edit number formats in results
+show time of data fetched

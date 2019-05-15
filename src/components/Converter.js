@@ -24,8 +24,6 @@ const Converter = ({ currencies }) => {
 
   const handleSubmit = event => {
     event.preventDefault();
-    console.log(amount);
-    console.log(currencies);
     const fromValue = currencies.find(
       currency => currency.shortName === fromValuta
     ).value;
@@ -43,7 +41,7 @@ const Converter = ({ currencies }) => {
       amount: validAmount,
       result: resultOfConversion
     };
-    console.log(resultObject);
+
     setResult(resultObject);
   };
 

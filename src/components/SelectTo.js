@@ -16,7 +16,7 @@ const SelectTo = ({ name, currencies, value, updateToValuta }) => {
             key={currency.shortName}
             value={currency.shortName}
             label={`${currency.name} (${currency.shortName})`}
-          />
+          >{`${currency.name} (${currency.shortName})`}</option>
         ))}
       </select>
     </div>

@@ -34,13 +34,17 @@ const Contact = () => {
         </a>
       </div>
       <div className="api-info">
-        <a
-          href="http://napiarfolyam.hu/"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          Az árfolyamokat a napiárfolyam.hu gyüjti.
-        </a>
+        <p>
+          Az árfolyamokat a{" "}
+          <a
+            href="http://napiarfolyam.hu/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            napiárfolyam.hu
+          </a>{" "}
+          gyüjti.
+        </p>
       </div>
     </footer>
   );

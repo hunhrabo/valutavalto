@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import getData from "./services/services";
+import "./services/serviceModule";
+import getData from "./services/serviceModule";
 import Converter from "./components/Converter";
 import Contact from "./components/Contact";
 import "./App.css";
@@ -68,12 +69,17 @@ function App() {
       setAllCurrencies(devizas);
     });
   }, []);
-  return (
-    <div className="content-body">
-      <Converter currencies={allCurrencies} />
-      <Contact />
-    </div>
-  );
+
+  if (allCurrencies.length > 0) {
+    return (
+      <div className="content-body">
+        <Converter currencies={allCurrencies} />
+        <Contact />
+      </div>
+    );
+  } else {
+    return <div>Loading...</div>;
+  }
 }
 
 export default App;

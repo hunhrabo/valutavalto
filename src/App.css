@@ -75,12 +75,6 @@
   transition: all 0.2s linear;
 }
 
-.converter-form div button:hover {
-  background-color: #24a83e;
-  color: white;
-  transition: all 0.2s linear;
-}
-
 .converter-form div button:focus {
   box-shadow: 0 0 2px 1px #a9bcd0;
 }
@@ -91,6 +85,7 @@
 
 .result-to-show {
   font-size: 2.5em;
+  font-weight: 700;
 }
 
 .contact-info i {
@@ -99,7 +94,7 @@
 
 .api-info a {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 @media only screen and (min-width: 860px) {
@@ -121,5 +116,11 @@
 
   .converter-form div button {
     width: 100%;
+  }
+
+  .converter-form div button:hover {
+    background-color: #24a83e;
+    color: white;
+    transition: all 0.2s linear;
   }
 }
