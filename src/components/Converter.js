@@ -52,15 +52,6 @@ const Converter = ({ currencies }) => {
     return amount;
   };
 
-  // const calculateConversion = (from, to, amount) => {
-  //   const fromValue = currencies.find(currency => currency.shortName === from)
-  //     .value;
-  //   const toValue = currencies.find(currency => currency.shortName === to)
-  //     .value;
-  //   const newResult = (fromValue * Number(amount)) / toValue;
-  //   return newResult;
-  // };
-
   return (
     <div className="converter-body">
       <h1>MNB Középárfolyamváltó</h1>

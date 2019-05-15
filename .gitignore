@@ -24,3 +24,5 @@ yarn-error.log*
 
 # other files
 /src/services/services.js
+/public/api.napiarfolyam.hu.xml
+fixes.txt
